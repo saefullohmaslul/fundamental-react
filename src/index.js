@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// method untuk merender component ke dalam elmeent html dengan id root
 ReactDOM.render(
   <React.StrictMode>
     <App />
